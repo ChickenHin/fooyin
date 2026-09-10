@@ -1,12 +1,12 @@
 name: Clang-format check
 
 on:
-  push:
-    branches-ignore:
-      - update-translations
-    paths-ignore:
-      - '*.md'
-      - 'data/translations/**'
+  # push:
+  #   branches-ignore:
+  #     - update-translations
+  #   paths-ignore:
+  #     - '*.md'
+  #     - 'data/translations/**'
   pull_request:
     paths-ignore:
       - '*.md'
